@@ -1,0 +1,33 @@
+* {
+    margin:0;
+    box-sizing: border-box;
+}
+
+/* label container div  */
+.label-container{
+    display: flex;
+    justify-content: center;
+    margin-top:40px
+}
+
+#countDisplay{
+    font-size: 4.5rem;
+}
+
+/* button container div */
+.btn-container {
+    display:flex;
+    justify-content: center;
+}
+
+.butns{
+    margin:30px 20px;
+    padding:18px 28px;
+    font-size: 28px;
+    background-color: rgb(19, 155, 253);
+    border: none;
+    color:white;
+    letter-spacing: 3px;
+    font-weight: bold;
+    cursor: pointer;
+}
